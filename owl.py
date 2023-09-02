@@ -336,9 +336,9 @@ class Dos:
         print(" Copyright 2023 [OWL 🦉]")
         print(" Buy Tools | @safenetworkz")
 
-        amount = input("Vui Lòng Nhập Threads Max(2000): ")
+        amount = input("Vui Lòng Nhập Threads Max(500000): ")
         if amount is None or amount == "":
-            Dos.amount = 2000
+            Dos.amount = 500000
         else:
             Dos.amount = int(amount)
 
